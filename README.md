@@ -4,7 +4,7 @@ Este proyecto es parte de la materia de Programación Computacional 4 y se centr
 
 ## Integrantes
 
-- **Angel Josue Guevara Portilo**
+- **Angel Josue Guevara Portillo**
   - Número de Estudiante: SMSS015622
 
 - **Sofia Margarita Romero Rodriguez**
