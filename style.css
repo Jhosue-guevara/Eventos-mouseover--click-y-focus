@@ -1,0 +1,163 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5; /* Fondo gris claro */
+  color: #e0d8d8; /* Color de texto oscuro */
+}
+body h1 {
+  text-align: center;
+  color: #faf6f6;
+  background-color: #212121; ;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center !important;
+  color: #faf6f6 !important;
+  background-color:#212121 !important;
+  padding: 20px !important;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; /* Centra los elementos en el eje vertical */
+  min-height: 100vh; /* Establece una altura mínima para .container (100% del viewport height) */
+}
+ h2 {
+  text-align: center;
+  margin: 10px 0;
+  color: #0b74e4; /* Color azul para los títulos */
+}
+
+
+
+.click-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.example:focus-within {
+  align-items: center; /* Centra los elementos cuando el .example está enfocado */
+}
+
+#focus1 {
+  align-items: center; /* Centra los elementos en el ejemplo 1 de focus */
+}
+
+#click2 button {
+  margin: 0 auto; /* Centra el botón en el ejemplo 2 de click */
+}
+.example {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ddd; /* Borde gris claro */
+  border-radius: 8px;
+  background-color: #fff; /* Fondo blanco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  min-height: 250px; /* Ajusta la altura mínima para todas las cajas */
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.textoo {
+  text-align: center;
+}
+
+
+
+.example p {
+  margin-bottom: 10px; /* Ajusta el espacio entre párrafos dentro de .example */
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
+  background-color: #ffc107; /* Color amarillo */
+}
+
+.botoncito {
+  border-radius: 5px;
+  border: none;
+  background-color: #e91e63; /* Color rosa oscuro */
+  color: #fff; /* Texto blanco */
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+
+.btn-success,
+.btn-danger {
+  margin-top: 10px;
+}
+
+.message,
+.error,
+.hint {
+  margin: 10px;
+  display: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.message {
+  background-color: #4caf50; /* Color verde */
+  color: #fff; /* Texto blanco */
+}
+
+.error {
+  background-color: #f44336; /* Color rojo */
+  color: #fff; /* Texto blanco */
+}
+
+.hint {
+  background-color: #2196f3; /* Color azul */
+  color: #fff; /* Texto blanco */
+}
+
+footer {
+  background-color: #212121; /* Fondo gris oscuro */
+  color: #fff; /* Texto blanco */
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer li {
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: #64b5f6; /* Color azul claro para enlaces en el pie de página */
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.click-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+  
