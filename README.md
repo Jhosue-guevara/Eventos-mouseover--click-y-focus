@@ -20,29 +20,29 @@ La página web contiene ejemplos interactivos de eventos mouseover, click y focu
 
 1. **Cambio de Color al Hacer Clic en un Div:**
    - Descripción: Este ejemplo cambia el color de fondo de un div al hacer clic.
-   - Archivos Relacionados: `script.js`, `style.css`
+   - Archivos Relacionados:`index.html`,`script.js`, `style.css`
 
 2. **Mostrar/Ocultar un Mensaje al Hacer Clic en un Botón:**
    - Descripción: Muestra u oculta un mensaje al hacer clic en un botón.
-   - Archivos Relacionados: `script.js`, `style.css`
+   - Archivos Relacionados: `index.html`,`script.js`, `style.css`
 
 3. **Sumar/Restar un Contador al Hacer Clic en Botones:**
    - Descripción: Permite al usuario sumar o restar un contador al hacer clic en botones.
-   - Archivos Relacionados: `script.js`, `style.css`
+   - Archivos Relacionados: `index.html`,`script.js`, `style.css`
 
 ### Eventos Focus
 
 1. **Cambio de Borde al Recibir o Perder el Foco en un Input:**
    - Descripción: Cambia el borde de un input al recibir o perder el foco.
-   - Archivos Relacionados: `script.js`, `style.css`
+   - Archivos Relacionados: `index.html`,`script.js`, `style.css`
 
 2. **Validación de Email al Perder el Foco en un Input:**
    - Descripción: Valida el formato del email al perder el foco en un input y muestra un mensaje de error si es necesario.
-   - Archivos Relacionados: `script.js`, `style.css`
+   - Archivos Relacionados: `index.html`,`script.js`, `style.css`
 
 3. **Mostrar/Ocultar una Sugerencia al Recibir o Perder el Foco en un Input:**
    - Descripción: Muestra una sugerencia al recibir el foco y la oculta al perderlo en un input.
-   - Archivos Relacionados: `script.js`, `style.css`
+   - Archivos Relacionados: `index.html`,`script.js`, `style.css`
 
 ## Instalación
 
