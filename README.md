@@ -7,7 +7,7 @@ Este proyecto es parte de la materia de Programación Computacional 4 y se centr
 - **Angel Josue Guevara Portillo**
   - Número de Estudiante: SMSS015622
 
-- **César Alexander Romero Vasquez*
+- **César Alexander Romero Vasquez**
   - Número de Estudiante: SMSS078821
 
 ## Descripción
