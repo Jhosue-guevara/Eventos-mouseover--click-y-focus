@@ -59,15 +59,16 @@ h1 {
   flex: 1;
   margin: 10px;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #ddd; /* Borde gris claro */
   border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  min-height: 250px;
+  background-color: #fff; /* Fondo blanco */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  min-height: 250px; /* Ajusta la altura mínima para todas las cajas */
+  display: flex;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; /* Centra el contenido verticalmente */
+
 }
 
 .textoo {
@@ -84,14 +85,14 @@ h1 {
   width: 100px;
   height: 100px;
   margin: 10px auto;
-  background-color: #ffc107;
+  background-color: #ffc107; /* Color amarillo */
 }
 
 .botoncito {
   border-radius: 5px;
   border: none;
-  background-color: #e91e63;
-  color: #fff;
+  background-color: #e91e63; /* Color rosa oscuro */
+  color: #fff; /* Texto blanco */
   padding: 10px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -111,9 +112,7 @@ h1 {
   display: none;
   padding: 10px;
   border-radius: 5px;
-  text-align: center; /* Centra el texto horizontalmente */
 }
-
 
 .message {
   background-color: #4caf50; /* Color verde */
