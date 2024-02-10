@@ -16,6 +16,19 @@ La página web contiene ejemplos interactivos de eventos mouseover, click y focu
 
 ## Ejemplos Implementados
 
+### Eventos Mouseover
+
+1. **Cambiar dinamicamente el html :**
+   - Descripción: utiliza eventos del mouse para cambiar dinamicamente el html segun se mueva el cursor y si se da click sobre el cuadro.
+   - Archivos Relacionados:`index.html`,`script.js`, `style.css`
+
+2. **cambiar el color:**
+   - Descripción:se crea un eventos mouseover para cambiar el color segun donde coloquemos el cursor.
+   - Archivos Relacionados: `index.html`,`script.js`, `style.css`
+
+3. **cambia el color:**
+   - Descripción:cambia el color del texto si el cursor esta encima<.
+   - Archivos Relacionados: `index.html`,`script.js`, `style.css`
 ### Eventos Click
 
 1. **Cambio de Color al Hacer Clic en un Div:**
