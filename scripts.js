@@ -1,7 +1,43 @@
 // Script para los ejemplos de eventos click, focus y mouseover
 
+// ejemplo del mousehover cambiar el emoji con eventos del mouse(mouseover)
+const mybox = document.getElementById("mybox");
+
+mybox.addEventListener("click", event => {
+  event.target.style.backgroundColor = "#10B5B2";
+  event.target.textContent = "!aayy¡🤕";
+});
+
+mybox.addEventListener("mouseover", event => {
+  event.target.style.backgroundColor = "#F5F912";
+  event.target.textContent = "no lo hagas 😮";
+});
+
+mybox.addEventListener("mouseout", event => {
+  event.target.style.backgroundColor = "#4caf50";
+  event.target.textContent = "click me 😃";
+});
+
+// Se crea una función que pinta los cuadros según el color por el que pase el cursor
+function pintar(col) {
+  document.getElementById("cuadro").style.backgroundColor = col;
+}
+
+
+// Crear un evento mouseover para cambiar el color de un texto cuando el cursor pasa por encima.
+function cambiarTexto() {
+  var miTexto = document.getElementById('miTexto');
+  miTexto.innerHTML = '¡Holaa 😃!';
+  miTexto.style.color = '#e74c3c';
+}
+
+function restaurarTexto() {
+  var miTexto = document.getElementById('miTexto');
+  miTexto.innerHTML = 'Pasa el cursor aquí';
+  miTexto.style.color = '#333';
+}
 // Ejemplo 1: Cambiar el color de fondo de un div al hacer clic
-let click1 = document.getElementById("click1");
+let click1 = document.getElementById("click11");
 let box = click1.querySelector(".box");
 box.addEventListener("click", function() {
   // Generar un color aleatorio en formato rgb

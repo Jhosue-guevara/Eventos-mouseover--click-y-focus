@@ -6,14 +6,42 @@
 </head>
 <body>
   <h1>Eventos mouseover, click y focus</h1>
+  
   <div class="container">
     <div class="row click-row">
-      <h2>Eventos click</h2>
-      <p id="textoo">Los eventos click se disparan cuando el usuario hace clic en un elemento con el botón izquierdo del ratón.</p>
+      <h2>Eventos Mouseover</h2>
+      <center> <p id="textoo">Los eventos mouseover son aquellos eventos los cuales se ejecuntan cuando el cursor pasa sobre de ellos.</p></center>
+      <div class="col">
+        <p>Ejemplo1: utiliza eventos del mouse para cambiar dinamicamente el html segun se mueva el cursor y si se da click sobre el cuadro..</p>
+        <div class="example" id="mybox">
+          click me 😃
+        </div>
     </div>
+    <div class="col">
+      <p>Ejemplo2 : se crea un eventos mouseover para cambiar el color segun donde coloquemos el cursor.</p>
+      <a href="#" onmouseover="pintar('#F5F912')" onmouseout="pintar('#F2FAEF')">Amarillo</a>
+      <a href="#" onmouseover="pintar('#0873F8')" onmouseout="pintar('#F2FAEF')">Azul</a>
+      <a href="#" onmouseover="pintar('#32F701')" onmouseout="pintar('#F2FAEF')">Verde</a>
+      
+      <div class="example" id="cuadro">
+      </div>
+    </div>
+    <div class="col">
+      <p>Ejemplo3 : cambia el color del texto si el cursor esta ensima</p>
+      <div class="example" id="click1">
+        <div class="example" id="texto">
+          <p id="miTexto" onmouseover="cambiarTexto()" onmouseout="restaurarTexto()">Pasa el cursor aquí</p>
+        </div>
+    
+      </div>
+    </div>
+    </div>
+    </div>
+    <h2>Eventos click</h2>
+      <center><p id="textoo">Los eventos click se disparan cuando el usuario hace clic en un elemento con el botón izquierdo del ratón.</p></center>
     <div class="row click-row">
       <div class="col">
-        <div class="example" id="click1">
+        <div class="example" id="click11">
           <p>Ejemplo 1: Cambiar el color de fondo de un div al hacer clic</p>
           <div class="box"></div>
         </div>
@@ -60,7 +88,7 @@
       <li>César Alexander Romero Vásquez- SMSS078821</li>
     </ul>
   </footer>
-  <script src="script.js"></script>
+  <script src="scripts.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
